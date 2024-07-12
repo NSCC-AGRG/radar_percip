@@ -5,6 +5,8 @@ welcome to the wonderful world of radar percipitation.
 ## Annapolis Valley FLood Event - July 11, 2024
 ![image](/data/radar/CAPPI/GIF/CASGO/202407111830_CASGO_CAPPI_1.5_RAIN.gif)
 
+full catalog available: [CASCM](/data/radar/CAPPI/GIF/CASCM), [CASGO](/data/radar/CAPPI/GIF/CASGO), [CASMB](/data/radar/CAPPI/GIF/CASMB), 
+
 scripts\gif_downloader.py
 
     will download all gif files from a given url and save them in a folder called "gifs" which is located in the same directory as this script.
