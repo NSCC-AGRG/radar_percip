@@ -3,7 +3,7 @@
 welcome to the wonderful world of radar percipitation. 
 
 ## Annapolis Valley FLood Event - July 11, 2024
-![image](data\radar\CAPPI\GIF\CASGO\202407111830_CASGO_CAPPI_1.5_RAIN.gif)
+![image](/data/radar/CAPPI/GIF/CASGO/202407111830_CASGO_CAPPI_1.5_RAIN.gif)
 
 scripts\gif_downloader.py
 
