@@ -14,13 +14,15 @@ def download_gif(url, save_path):
     except Exception as err:
         print(f"Other error occurred: {err}")
 
-def scrub_radar_gifs(product, format, radar_station, start_date, end_date):
+def scrub_radar_gifs(product, format, radar_station, start_date, end_date, scale = '1.5', type = 'RAIN'):
     base_url = f"https://dd.weather.gc.ca/radar/{product}/{format}/{radar_station}"
     current_date = start_date
 
+    
+
     while current_date <= end_date:
         formatted_date = current_date.strftime("%Y%m%d%H%M")
-        filename = f"{formatted_date}_{radar_station}_CAPPI_1.5_RAIN.gif"
+        filename = f"{formatted_date}_{radar_station}_{product}_{scale}_{type}.gif"
         url = f"{base_url}/{filename}"
         save_dir = os.path.join('data', 'radar',product,format,radar_station)
         save_path = os.path.join(save_dir, filename)
@@ -41,6 +43,8 @@ if __name__ == "__main__":
     end_date = datetime(2024, 7, 12, 19, 0)  # End date and time
 
     radar_stations = ["CASGO", "CASMB", "CASCM"] # Halifax, Sydney, Fredericton
+    # radar_stations = ["CASGO"] # Halifax, Sydney, Fredericton
 
     for radar_station in radar_stations:
-        scrub_radar_gifs(product, format, radar_station, start_date, end_date)
+        scrub_radar_gifs(product, format, radar_station, start_date, end_date, scale='1.5', type = 'RAIN')
+        scrub_radar_gifs(product, format, radar_station, start_date, end_date, scale='1.0', type = 'SNOW')
