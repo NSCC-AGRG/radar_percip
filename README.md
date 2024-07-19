@@ -70,6 +70,8 @@ contains old versions of radar percipitation processing scripts, mainly for refe
  - https://www.wunderground.com/wundermap?lat=56.130&lon=-106.346&zoom=4&radar=1&wxstn=0 (uses weather.com radar api)
  - https://mesonet.agron.iastate.edu/current/radar.phtml
  - https://www.ncei.noaa.gov/maps/radar/ (uses radar layers from iastate)
+ - https://www.meteoblue.com/en/weather/maps#coords=4.87/37.73/-78.5&map=radar~radarMap~none~none~none
+ - https://gpm.nasa.gov/
 
 
 
