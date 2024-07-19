@@ -56,4 +56,9 @@ contains old versions of radar percipitation processing scripts, mainly for refe
 - https://www.ncdc.noaa.gov/wct/data.php
 - https://thredds.ucar.edu/thredds/catalog/catalog.html
 
+### Global Radar
+- https://wrd.mgm.gov.tr/Home/Wrd
+- https://wrd.mgm.gov.tr/Radar/Details/YXpNMXRuTVJxQ2FsM1Rta3NwaVVaZz09
+
+
 
