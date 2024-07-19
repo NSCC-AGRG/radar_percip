@@ -60,5 +60,16 @@ contains old versions of radar percipitation processing scripts, mainly for refe
 - https://wrd.mgm.gov.tr/Home/Wrd
 - https://wrd.mgm.gov.tr/Radar/Details/YXpNMXRuTVJxQ2FsM1Rta3NwaVVaZz09
 
+# Other sources etc..
+- https://en.wikipedia.org/wiki/Nowcasting_(meteorology)
+ - https://www.radar.mcgill.ca/imagery/nowcasting.html
+- https://www.rainviewer.com/weather-radar-map-live.html
+ - https://zoom.earth/maps/radar/#view=45.2029,-62.9264,7z/date=2024-07-19,15:07,-3 (uses rainviewer.com radar api)
+ - https://www.ventusky.com/?p=42.33;-60.94;6&l=radar
+ - https://weather.com/en-CA/weather/radar/interactive/l/584018bec07ce9573837c14fa59da031fa6fcdeb1c3c9e3b2b27cb79ce254b5a
+ - https://www.wunderground.com/wundermap?lat=56.130&lon=-106.346&zoom=4&radar=1&wxstn=0 (uses weather.com radar api)
+ - https://mesonet.agron.iastate.edu/current/radar.phtml
+ - https://www.ncei.noaa.gov/maps/radar/ (uses radar layers from iastate)
+
 
 
